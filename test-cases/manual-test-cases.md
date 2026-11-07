@@ -4,7 +4,7 @@
 
 **Test type:** Functional testing  
 **Priority:** Medium  
-**Status:** Not Run
+**Status:** Passed
 
 ### Preconditions
 - The website is accessible.
@@ -21,9 +21,10 @@
 - Each available colour option can be selected.
 - The selected option is clearly indicated.
 - The product image updates to match the selected colour.
+- Selecting the custom RAL colour option displays the natural finish preview.
 
 ### Actual Result
-To be recorded after execution.
+Tested the “Parametarsko ogledalo” product. Selecting white, brown, black, and beige displayed the corresponding product images. The custom RAL colour option displayed the natural finish preview, as intended; the desired RAL code is specified with the order.
 
 ### Execution Details
 - Date:
@@ -31,5 +32,5 @@ To be recorded after execution.
 - Browser and version:
 - Device / operating system:
 - Language:
-- Result: Not Run
+- Result: Passed
 - Evidence:
