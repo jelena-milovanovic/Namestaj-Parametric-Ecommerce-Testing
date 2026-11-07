@@ -1,41 +1,63 @@
-# Namestaj-Parametric-Ecommerce-Testing
-Manual QA Testing – WordPress E-commerce Website
-# Namestaj Parametric – E-commerce Website
+# Nameštaj Parametric — Manual QA Portfolio
 
-## Project Overview
+Manual testing of a bilingual furniture e-commerce website built with WordPress and WooCommerce.
 
-This project represents a WordPress-based e-commerce website for furniture products.
+Website: https://namestajparametric.com/
 
-The website allows users to browse furniture products, explore product details, and interact with shopping cart functionality.
+## Project Background
 
-## Project Type
-- E-commerce Website
-- WordPress
-- Manual Software Testing
+I designed and developed this website based on requirements gathered directly from the client. I clarified the purpose of the website, product presentation, shopping functionality, language versions, and delivery timeline.
+
+Alongside development, I manually tested the website to check functionality and consistency across the Serbian and English versions.
+
+This repository documents that practical experience and contains QA documentation being prepared for my portfolio.
+
+## My Role
+
+- Clarified client requirements and translated them into website functionality.
+- Designed and developed the Serbian and English versions of the website.
+- Manually checked approximately 20 products and their available colour options.
+- Tested navigation, shopping cart functionality, language switching, and catalogue links.
+- Investigated issues, implemented fixes, and repeated checks after changes.
 
 ## Testing Scope
 
-The testing process focuses on the following areas:
-
 - Homepage and navigation
-- Product listings
-- Product details
+- Product pages and colour selection
 - Shopping cart functionality
-- Product categories
+- Serbian and English language versions
 - Currency display and conversion
-- Website usability and responsiveness
+- Catalogue links
+- Desktop and mobile layouts
 
-## Technologies Used
+## Example of an Issue Found and Resolved
 
-- WordPress
-- WooCommerce
-- Manual Testing
-- GitHub
+### Incorrect price conversion when switching languages
 
-## Project Goals
+During testing, I found that a product priced at EUR 400 on the English version appeared as RSD 400 after switching to Serbian. The currency label changed, but the price was not converted.
 
-The goal of this project is to demonstrate practical knowledge of manual software testing, identifying potential issues, and evaluating e-commerce website functionality.
+**Expected behaviour:** The price should be converted using the configured exchange rate and displayed in the appropriate currency.
+
+**Action taken:** I configured currency-conversion plugins and repeated checks across both language versions.
+
+**Outcome:** After the fix, the prices converted correctly during my follow-up testing.
+
+This is a retrospective description of an issue resolved during website development, rather than a currently open defect.
+
+## Portfolio Documentation
+
+Documentation is being added to this repository:
+
+- Test cases with steps and expected results
+- Test execution results
+- A retrospective bug report for the currency-conversion issue
+- Screenshots supporting newly executed tests
+- A test summary describing coverage, findings, and limitations
+
+## Technologies and Platform
+
+WordPress, WooCommerce, Elementor, GitHub
 
 ## Author
 
-QA Portfolio Project
+Jelena Milovanović
